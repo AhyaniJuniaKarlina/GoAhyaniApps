@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goahyaniapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoAhyaniApps">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RS"></activity>
+        <activity android:name=".RSAwalBros"></activity>
+        <activity android:name=".RSEkaHospital"></activity>
+        <activity android:name=".RSJiwaTampan"></activity>
+        <activity android:name=".RSTabrani"></activity>
+
+        <activity android:name=".Polisi"></activity>
+        <activity android:name=".Polda"></activity>
+        <activity android:name=".Polsekkota"></activity>
+        <activity android:name=".Polsektampan"></activity>
+        <activity android:name=".Polres"></activity>
+
+        <activity android:name=".Supermarket"></activity>
+        <activity android:name=".Ciputra"></activity>
+        <activity android:name=".Transmart"></activity>
+        <activity android:name=".SKA"></activity>
+        <activity android:name=".Living"></activity>
+
+        <activity android:name=".Sekolah"></activity>
+        <activity android:name=".sma1"></activity>
+        <activity android:name=".sma4"></activity>
+        <activity android:name=".sma8"></activity>
+        <activity android:name=".smaplus"></activity>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
